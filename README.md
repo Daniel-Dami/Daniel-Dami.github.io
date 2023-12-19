@@ -2,7 +2,7 @@
 ## Here's something I made!
 ### Story of Man
 [Story of Man 1](https://danieldami2.github.io/Story-of-Man/Story-of-Man-1:-Cops-Tasks)
-### Scratch Projects
+### [Scratch Projects](https://danieldami2.github.io/Scratch)
 ### C++ Tools
 ### Games
-吴昊轩
+My chinese name is 吴昊轩.
