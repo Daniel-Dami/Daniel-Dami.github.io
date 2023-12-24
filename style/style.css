@@ -1,7 +1,17 @@
-html > body {
+@font-face {
+	font-family: Mojangles;
+	src: url(../font/Mojangles.ttf);
+	font-display: swap;
+}
+
+body {
+	font-family: Mojangles;
+	font-size: 16pt;
+	color: black;
+        
         background-image: url(https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg) !important;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-    }
+}
