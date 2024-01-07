@@ -4,8 +4,20 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: Poki;
+	src: url(../font/Poki.woff2);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Chinese;
+	src: url(../font/Chinese.woff);
+	font-display: swap;
+}
+
 body {
-	font-family: Mojangles;
+	font-family: Chinese;
 	font-size: 16pt;
 	color: black;
 
@@ -14,4 +26,33 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+}
+
+.top {
+	border: 0px;
+	background-color: ;
+}
+
+.box {
+	border: 1px solid rgb(180, 180, 180);
+	border-radius: 20px;
+
+	margin-bottom: 10px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	background-color: rgba(255, 255, 255, 0.6);
+
+	transition: 0.5s;
+}
+
+.box:hover {
+	transform: translateY(-3px);
+
+	background-color: rgba(255, 255, 255, 0.8);
+
+	box-shadow: 0px 10px 3px #888888;
 }
