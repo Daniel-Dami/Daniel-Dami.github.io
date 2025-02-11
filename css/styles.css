@@ -18,10 +18,10 @@ mdui-card {
     display: flex;
 }
 
-#main-left {
+#main-card>.main-item {
     flex: 1;
 }
 
-#main-right {
-    flex: 1;
+mdui-divider {
+    margin: 8px;
 }
