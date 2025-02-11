@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="mdui-theme-dark">
 
 <head>
     <title>DanielDami's Website | Home</title>
@@ -12,25 +12,27 @@
 </head>
 
 <body>
-    <header>
-        <h1>DanielDami's Website</h1>
-        <mdui-segmented-button-group id="top-buttons" full-width>
+    <mdui-top-app-bar>
+        <mdui-avatar src="favicon.png"></mdui-avatar>
+        <mdui-top-app-bar-title>DanielDami's Website</mdui-top-app-bar-title>
+        <mdui-segmented-button-group>
             <mdui-segmented-button href="#">Home</mdui-segmented-button>
             <mdui-segmented-button href="about">About</mdui-segmented-button>
             <mdui-segmented-button href="game">Games</mdui-segmented-button>
         </mdui-segmented-button-group>
-    </header>
+    </mdui-top-app-bar>
 
     <main>
-        <mdui-card>
-            <div id="main-left">
+        <mdui-card id="main-card">
+            <div class="main-item">
                 <h2>Welcome to DanielDami's Website</h2>
                 <p>This is a simple website that you can look for many things to your liking.</p>
-                <img src="images/gameGallery.jpg" alt="Our Game Gallery">
             </div>
-            <div id="main-right">
+            <div><mdui-divider vertical></mdui-divider></div>
+            <div class="main-item">
                 <h2>About Us</h2>
-                <p>Hello, my name is DanielDami. This is my personal website. Our team website will be avilable soon.
+                <p>Hello, my name is DanielDami. This is my personal website. Our team website won't be avilable
+                    soon.
                 </p>
             </div>
         </mdui-card>
