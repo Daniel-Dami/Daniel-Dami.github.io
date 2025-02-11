@@ -14,34 +14,31 @@
 <body>
     <header>
         <h1>DanielDami's Website</h1>
-        <nav>
-            <ul>
-                <mdui-segmented-button-group>
-  <mdui-segmented-button href="#">Home</mdui-segmented-button>
-  <mdui-segmented-button href="about">About</mdui-segmented-button>
-  <mdui-segmented-button href="game">Games</mdui-segmented-button>
-</mdui-segmented-button-group>
-            </ul>
-        </nav>
+        <mdui-segmented-button-group id="top-buttons" full-width>
+            <mdui-segmented-button href="#">Home</mdui-segmented-button>
+            <mdui-segmented-button href="about">About</mdui-segmented-button>
+            <mdui-segmented-button href="game">Games</mdui-segmented-button>
+        </mdui-segmented-button-group>
     </header>
 
     <main>
         <mdui-card>
-            <h2>Welcome to DanielDami's Website</h2>
-            <p>This is a simple website that you can look for many things to your liking.</p>
-            <img src="images/gameGallery.jpg" alt="Our Game Gallery">
-            </mdui-card>
-
-            <mdui-card>
+            <div id="main-left">
+                <h2>Welcome to DanielDami's Website</h2>
+                <p>This is a simple website that you can look for many things to your liking.</p>
+                <img src="images/gameGallery.jpg" alt="Our Game Gallery">
+            </div>
+            <div id="main-right">
                 <h2>About Us</h2>
                 <p>Hello, my name is DanielDami. This is my personal website. Our team website will be avilable soon.
                 </p>
-            </mdui-card>
+            </div>
+        </mdui-card>
 
-            <mdui-card>
-                <h3>News</h3>
-                <p>MDUI is added to this page!</p>
-            </mdui-card>
+        <mdui-card>
+            <h3>News</h3>
+            <p>MDUI is added to this page!</p>
+        </mdui-card>
     </main>
 
     <footer>
