@@ -1,57 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html class="mdui-theme-dark">
 
 <head>
     <title>DanielDami's Website | Games</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <script src="../js/script.js"></script>
+    <link rel="icon" href="favicon.png">
+    <!-- MDUI -->
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>DanielDami's Website</h1>
-        <nav>
-            <ul>
-                <li><a href="..">Home</a></li>
-                <li><a href="../about">About</a></li>
-                <li><a href="../game">Games</a></li>
-            </ul>
-        </nav>
-    </header>
+    <mdui-top-app-bar>
+        <mdui-avatar src="favicon.png"></mdui-avatar>
+        <mdui-top-app-bar-title>DanielDami's Website</mdui-top-app-bar-title>
+        <mdui-segmented-button-group>
+            <mdui-segmented-button href="..">Home</mdui-segmented-button>
+            <mdui-segmented-button href="../about">About</mdui-segmented-button>
+            <mdui-segmented-button href="#">Games</mdui-segmented-button>
+        </mdui-segmented-button-group>
+    </mdui-top-app-bar>
 
     <main>
-        <section class="rounded">
+        <mdui-card>
             <h2>Welcome to DanielDami's Game Gallery!</h2>
             <p>This game gallery includes many games made by </p>
             <a href="author">my friends</a>
             <p> and me.</p>
             <img src="images/gameGallery.jpg" alt="Our Game Gallery">
-        </section>
-        <section class="rounded">
+        </mdui-card>
+        <mdui-card>
+            <div class="main-item">
             <h2>Featured Games</h2>
             <ul>
                 <li><a href="motorcycle">Motorcycle</a></li>
                 <li><a href="boat-off">Boat Off</a></li>
                 <li><a href="our-land">Our Land</a></li>
             </ul>
-        </section>
-        <section class="rounded">
+            </div>
+            <div><mdui-divider vertical></mdui-divider></div>
+            <div>
             <h2>Popular Games</h2>
             <ul>
                 <li><a href="motorcycle">Motorcycle</a></li>
                 <li><a href="boat-off">Boat Off</a></li>
                 <li><a href="our-land">Our Land</a></li>
             </ul>
-        </section>
-        <section class="rounded">
-            <table>
-                <tr>
-                    <td style="width: 60%">
+            </div>
+        </mdui-card>
+        <mdui-card>
             <h2>Boat Off</h2>
-            Boat off is a 2D 2 player game where you have to make the other player fall off the boat.
-            <a href="boat-off">Play Now</a></td><td>
-            <img src="../image/boatoff.png"></td></tr></table>
-        </section>
+            Boat off is a 2D two player game where you have to make the other player fall off the boat.
+            <a href="boat-off">Play Now</a>
+            <img src="../image/boatoff.png" height="200">
+        </mdui-card>
         <script src="https://giscus.app/client.js"
         data-repo="Daniel-Dami/Daniel-Dami.github.io"
         data-repo-id="R_kgDOK6qO9w"
@@ -65,13 +68,12 @@
         data-theme="preferred_color_scheme"
         data-lang="en"
         crossorigin="anonymous"
-        async>
-</script>
-
+        async></script>
     </main>
 
     <footer>
         <p>&copy; 2023 - 2025 My Website. All rights reserved.</p>
+        <p>This website uses <a href="https://www.mdui.org/">MDUI</a>.</p>
     </footer>
 </body>
 
