@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="mdui-theme-dark">
 
 <head>
-  <title>DanielDami's Website | About</title>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
-  <script src="../js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanielDami's Website | About</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="../js/script.js"></script>
+    <link rel="icon" href="../favicon.png">
+    <!-- MDUI -->
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+    <link href="../css/material.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <h1>DanielDami's Website</h1>
-    <nav>
-      <ul>
-        <li><a href="..">Home</a></li>
-        <li><a href="../about">About</a></li>
-        <li><a href="../game">Games</a></li>
-      </ul>
-    </nav>
-  </header>
+
+    <mdui-top-app-bar>
+        <mdui-avatar src="../favicon.png"></mdui-avatar>
+        <mdui-top-app-bar-title>DanielDami's Website</mdui-top-app-bar-title>
+        <mdui-segmented-button-group>
+            <mdui-segmented-button href="..">Home</mdui-segmented-button>
+            <mdui-segmented-button href="#">About</mdui-segmented-button>
+            <mdui-segmented-button href="../game">Games
+                <mdui-icon name='arrow_drop_down'></mdui-icon>
+            </mdui-segmented-button>
+        </mdui-segmented-button-group>
+    </mdui-top-app-bar>
 
   <main>
-    <section class="rounded">
+        <mdui-card>
       <h2>About Myself</h2>
       <p>Hello! I'm DanielDami. I live in China.</p>
       <p>How to reach me:</p>
@@ -28,12 +37,13 @@
       <p>QQ: 1606241063</p>
       <p>Email: DanielDami@qq.com</p>
       <!-- Phone: +86 -->
-    </section>
+        </mdui-card>
   </main>
 
   <footer>
-    <p>&copy; 2023 - 2024 My Website. All rights reserved.</p>
-  </footer>
+        <p>&copy; 2023 - 2025 My Website. All rights reserved.</p>
+        <p>This website uses <a href="https://www.mdui.org/">MDUI</a>.</p>
+    </footer>
 </body>
 
 </html>
