@@ -7,8 +7,8 @@
     <script src="../js/script.js"></script>
     <link rel="icon" href="../favicon.png">
     <!-- MDUI -->
-    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
-    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+    <link rel="stylesheet" href="../css/mdui.css">
+    <script src="../js/mdui.global.js"></script>
     <link href="../css/material.css" rel="stylesheet">
 </head>
 
@@ -19,9 +19,7 @@
         <mdui-segmented-button-group>
             <mdui-segmented-button href="..">Home</mdui-segmented-button>
             <mdui-segmented-button href="../about">About</mdui-segmented-button>
-            <mdui-segmented-button href="#">Games
-                <mdui-icon name='arrow_drop_down'></mdui-icon>
-            </mdui-segmented-button>
+            <mdui-segmented-button href="#">Games</mdui-segmented-button>
         </mdui-segmented-button-group>
     </mdui-top-app-bar>
 
@@ -34,20 +32,20 @@
         <mdui-card>
             <div class="main-item">
             <h2>Featured Games</h2>
-            <ul>
-                <li><a href="motorcycle">Motorcycle</a></li>
-                <li><a href="boat-off">Boat Off</a></li>
-                <li><a href="our-land">Our Land</a></li>
-            </ul>
+            <mdui-segmented-button-group>
+                <mdui-segmented-button href="motorcycle">Motorcycle</mdui-segmented-button>
+                <mdui-segmented-button href="boat-off">Boat Off</mdui-segmented-button>
+                <mdui-segmented-button href="our-land">Our Land</mdui-segmented-button>
+            </mdui-segmented-button-group>
             </div>
             <div><mdui-divider vertical></mdui-divider></div>
             <div>
             <h2>Popular Games</h2>
-            <ul>
-                <li><a href="motorcycle">Motorcycle</a></li>
-                <li><a href="boat-off">Boat Off</a></li>
-                <li><a href="our-land">Our Land</a></li>
-            </ul>
+            <mdui-segmented-button-group>
+                <mdui-segmented-button href="boat-off">Boat Off<mdui-badge>Hot</mdui-badge></mdui-segmented-button>
+                <mdui-segmented-button href="our-land">Our Land</mdui-segmented-button>
+                <mdui-segmented-button href="motorcycle">Motorcycle</mdui-segmented-button>
+            </mdui-segmented-button-group>
             </div>
         </mdui-card>
         <mdui-card>
