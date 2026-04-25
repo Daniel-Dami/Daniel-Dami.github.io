@@ -14,9 +14,6 @@ footer {
 
 mdui-card {
     width: 100%;
-    /* margin-bottom: 20px; */
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 .main-card {
@@ -25,6 +22,7 @@ mdui-card {
 
 .main-item {
     flex: 1;
+    padding: 8px;
 }
 
 mdui-divider {
