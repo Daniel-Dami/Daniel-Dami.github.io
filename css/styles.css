@@ -22,7 +22,7 @@ mdui-card {
     display: flex;
 }
 
-#main-card>.main-item {
+.main-item {
     flex: 1;
 }
 
