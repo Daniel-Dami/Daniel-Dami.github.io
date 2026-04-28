@@ -7,5 +7,6 @@ function changeSlide() {
     cnt = (cnt + 1) % imgs.length;
 }
 document.addEventListener("DOMContentLoaded", function () {
+    setColor
     setInterval(changeSlide, 1000);
 });

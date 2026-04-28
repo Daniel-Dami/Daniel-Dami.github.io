@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="mdui-theme-dark">
+<html lang="en" class="mdui-theme-auto">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DanielDami's Website | About</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="../js/topbar.js"></script>
     <script src="../js/script.js"></script>
     <link rel="icon" href="../favicon.png">
     <!-- MDUI -->
@@ -15,32 +16,32 @@
 </head>
 
 <body>
-
     <mdui-top-app-bar>
-        <mdui-avatar src="../favicon.png"></mdui-avatar>
-        <mdui-top-app-bar-title>DanielDami's Website</mdui-top-app-bar-title>
+        <mdui-avatar src='../favicon.png'></mdui-avatar>
+        <mdui-top-app-bar-title>
+            <a href='..' style='text-decoration:none;color:#000'>
+                DanielDami's Website
+            </a>
+        </mdui-top-app-bar-title>
         <mdui-segmented-button-group>
-            <mdui-segmented-button href="..">Home</mdui-segmented-button>
-            <mdui-segmented-button href="#">About</mdui-segmented-button>
-            <mdui-segmented-button href="../game">Games
-                <mdui-icon name='arrow_drop_down'></mdui-icon>
-            </mdui-segmented-button>
+            <mdui-segmented-button href='..'>Home</mdui-segmented-button>
+            <mdui-segmented-button href='#'>About</mdui-segmented-button>
+            <mdui-segmented-button href='../more'>More</mdui-segmented-button>
         </mdui-segmented-button-group>
     </mdui-top-app-bar>
-
-  <main>
+    <main>
         <mdui-card>
-      <h2>About Myself</h2>
-      <p>Hello! I'm DanielDami. I live in China.</p>
-      <p>How to reach me:</p>
-      <p>WeChat: whxDanielDami</p>
-      <p>QQ: 1606241063</p>
-      <p>Email: DanielDami@qq.com</p>
-      <!-- Phone: +86 -->
+            <h2>About Myself</h2>
+            <p>Hello! I'm DanielDami. I live in China.</p>
+            <p>How to reach me:</p>
+            <p>WeChat: whxDanielDami</p>
+            <p>QQ: 1606241063</p>
+            <p>Email: DanielDami@qq.com</p>
+            <p></p><!-- Phone: +86 -->
         </mdui-card>
-  </main>
+    </main>
 
-  <footer>
+    <footer>
         <p>&copy; 2023 - 2025 My Website. All rights reserved.</p>
         <p>This website uses <a href="https://www.mdui.org/">MDUI</a>.</p>
     </footer>
